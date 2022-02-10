@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: rgb(12, 11, 11);
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 50px;
+    margin: 25px 0;
+}
+.col-2 h2{
+    font-size: 40px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: red;
+}
+
+.header{
+    background: radial-gradient(#fff,#48ecf8 );
+}
+.header .row{
+    margin-top: 70px;
+}
+.New-Product{
+    background: radial-gradient(rgb(230, 123, 123),#0b48f0 );
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+}
+
+
+.New-Product .row .col-2 img{
+    border-radius: 8px;
+}
+
+
+.parlour{
+  
+     text-align: center;
+    background: radial-gradient(rgb(230, 123, 123),#f34ac9 );
+}
+.footer{
+    padding-top: 100px;
+    background: rgb(226, 31, 161);
+    color: #000000;
+    font-size: 14px;
+    padding: 60px 0 20px;
+
+
+}
+.footer .col-3 {
+    text-align: center;
+    
+
+}
+.footer .col-3 img {
+     width: 50px;
+    margin: 20px;
+    border-radius: 50px;
+
+}
+
+.footer .col-3 h3{
+    font-weight: 600;
+    color: rgb(14, 13, 13);
+    font-size: 16px;
+}
+.zone{
+    font-style: italic;
+    font-size: 300%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
